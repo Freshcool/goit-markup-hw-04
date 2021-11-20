@@ -261,6 +261,18 @@ body {
   margin: -1px;
 }
 
+.pecularities-icon-container {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  height: 120px;
+  width: 270px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pecularities-list {
   display: flex;
 }
@@ -268,15 +280,6 @@ body {
 .pecularities-item {
   margin-right: 30px;
   width: 100%;
-}
-
-.pecularities-icon {
-  padding: 25px 100px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  height: 120px;
-  width: 270px;
 }
 
 .pecularities-item:last-child {
@@ -457,6 +460,7 @@ body {
 
 .footer-container-main {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-container {
@@ -511,6 +515,7 @@ body {
 
 .footer-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   color: var(--background-color);
 }
